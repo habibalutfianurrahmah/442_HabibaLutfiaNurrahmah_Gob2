@@ -1,0 +1,23 @@
+Nama            : Habiba Lutfia Nurrahmah
+Kode Peserta    : 442
+Assignment 1    : Menampilkan Biodata Keluarga Sederhana
+
+
+#Panduan Aplikasi
+
+1. Buat folder Assgn-01
+2. Buka folder Assgn-01 pada aplikasi VSCode
+3. Buka terminal dengan cara tombol shortcut 'windows+R' pada keyboard laptop, lalu ketikan 'CMD' dan tekan 'enter'
+4. Dalam terminal, ubah direktori ke folder sebagai berikut
+    cd go
+    cd src
+    cd belajar
+    cd assgn-01
+5. Jalankan program dengan cara mengetikkan command pada terminal sebagai berikut
+    1) go run a (tekan tombol 'tab')
+    2) setelah itu menjadi go run .\assgn1.go
+    3) ketikan nomor data yang ingin diketahui, misalnya 1 maka command menjadi go run .\assgn1.go 1
+       lalu tekan 'enter'
+6. Kemudian akan muncul data keluarga nomor 1, berupa nomor urut (Nomor), nama keluarga (Nama), dan hobi (Hobi)
+   Apabila nomor data yang diketikkan melebihi jumlah data keluarga, maka akan muncul peringatan 'Tidak Terdaftar!'
+
