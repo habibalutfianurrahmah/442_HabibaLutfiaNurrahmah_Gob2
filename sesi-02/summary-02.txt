@@ -1,0 +1,22 @@
+Nama Lengkap    : Habiba Lutfia Nurrahmah 
+Kode Peserta    : 149368582100-442
+Sesi/Tanggal    : 02/Rabu, 21 September 2022
+
+1. Conditions
+    -digunakan untuk mengatur alur dari suatu program. ada dua jenis conditions yaitu 'if' else dan 'switch'
+    -beberapa keyword yang dipakai dalam switch yaitu fallthrough dan nested
+2. Loopings/For (perulangan)
+    -proses berulang yang dimana proses tersebut akan berhenti jika memenuhisuatu kondisi
+    -terdapat keyword break (untuk menghentikan loopings) dan continue (untuk melanjutkan loopings)
+    -nested loopings atau loopings bersarang adalah suatu proses looping yang memiliki suatu proses looping di dalamnya
+3. Array
+    -sebuah tipe data untuk menyimpan sebuah kumpulan dari data-data
+    -data-data yang disimpan pada sebuah array dalam bahasa Go harus memiliki tipe data yang sama, kecuali jika menyimpannya sebagai suatu interface kosong
+    -array memiliki sifat fixed-length atau memiliki panjang yang tetap yang harus ditentukan sejak awal membuat array nya
+4. Slice
+    -mirip dengan array, namun slice tidak memiliki sifat fixed-length yang berarti panjang dari slice tidak tetap sehingga bisa leluasa menentukan panjang slice-nya
+    -slice termasuk dalam kategori reference yang jika melakukan copy dan mengubah elemen dari yang kita copy tsb, maka slice semulanya akan ikut berubah
+    -yang membedakan dengan array adalah tidak perlu menuliskan panjang dari slice
+5. Map
+6. Aliase
+7. Strings In Depth

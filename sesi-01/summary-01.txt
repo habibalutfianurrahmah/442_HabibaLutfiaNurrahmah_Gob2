@@ -1,0 +1,54 @@
+Nama Lengkap    : Habiba Lutfia Nurrahmah 
+Kode Peserta    : 149368582100-442
+Sesi/Tanggal    : 01/Senin, 19 September 2022
+
+A. instalasi golang
+    1. download
+    2. instal kaya biasanya
+    3. cek instalasi berhasil/gagal
+        buka terminal lepi (windows + R)
+        ketik CMD trus enter
+        jika terminal sudah terbuka, ketik 'go' terus enter. kalau sudah berhasil instal, maka akan keluar informasi command dari go
+        ketik go env untuk cek environment atau lokasi penyimpanan path dari go
+    4. buka folder tempat penyimpanan path go
+        file explorer> Acer (C)> users> acer> go
+        di dalem folder go akan ada folder bin, pckg, dan src
+        kalau belum ada folder src, buat manual dengan cara biasanya membuat folder
+
+B. hello-world (membuat program)
+    1. buka VSCode
+    2. klik file> open folder> src
+    4. di dalem src buat folder lagi dengan cara klik kanan folder src trus pilih new folder, beri nama folder (belajar)
+    5. buat file program dengan cara klik kanan folder belajar, pilih new file. beri nama file hello.go
+    6. lalu terakhir, ketik command yang ingin dijalankan
+
+C. variabel
+    penulisan dalam go. ada 4 jenis, variabel dengan dan tanpa data tipe, multiple variabel, dan underscore variabel
+    1. variabel dengan tipe data/declaring variable
+        menulis fungsi dengan memasukkan tipe datanya (mis. string atau int).
+    2. variabel tanpa tipe data/type inference
+        menulis fungsi tanpa memasukkan tipe datanya, di mana golang sendirilah yang nantinya akan menentukan tipe data dari fungsi yang kita masukkan.
+    3. multiple variable
+        menulis banyak variabel dalam satu deret
+    4. underscore variable
+        adalah cara agar fungsi yang ditulis tidak mengganggur sehingga menimbulkan eror. underscore variable dilakukan untuk membuat variabel yang telah ditulis dapat terpakai sehingga tidak menimbulkan eror.
+
+D. data type
+    1. basic type (number, string, boolean)
+        *number(integer)
+            ada dua kategori integer (non desimal/non floating point) dan float (desimal/floating point)
+            -integer >> int (bilangan cacah positif) dan uint (bilangan bulat, positif dan negatif)
+            -float >> secara umum terbagi 2 yaitu float32 dan float34
+        *bool
+            ada 2 jenis yaitu false dan true. umumnya tipe data ini digunakan dalam perkondisian/perulangan
+        *string
+            memiliki ciri khas diapit oleh tanda " " dan atau juga ` `
+    2. aggregate type (array, struct)
+    3. reference type (slice, pointer, map, function, channel)
+    4. interface type (interface)
+
+E. constant dan operators
+    1. constant/konstanta
+         jenis variable pada bahasa go yang nilainya tidak dapat diubah (mis. pi, kecepatan cahaya, luas lingkaran, etc)
+    2. operators
+        ada 3 jenis, yaitu aritmatika, logika, dan perbandingan
