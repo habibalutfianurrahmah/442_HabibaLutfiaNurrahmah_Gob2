@@ -1,0 +1,33 @@
+Nama Lengkap    : Habiba Lutfia Nurrahmah 
+Kode Peserta    : 149368582100-442
+Sesi/Tanggal    : 05/Rabu, 28 September 2022
+
+TUGAS "Membuat Login"
+1. buat login
+2. require username & password
+3. username > string
+4. password > **** (len)
+
+if username && password == true
+username dan password benar
+else
+username/password salah
+
+####
+
+'STEPS'
+1. download folder tugas dari github
+2. ketik di terminal > go run login.go
+    kemudian program akan running, lalu muncul : 
+        Buat Akun Baru
+        Username :
+        Password :
+3. masukkan username dan password yang diinginkan, kemudian tekan 'enter'
+4. setelah itu akan muncul pemberitahuan -Akun Berhasil Dibuat-
+    lalu akan muncul kembali :
+        Login
+        Username :
+        Password :
+5. masukkan data akun yang telah dibuat tadi, lalu tekan 'enter'
+7. jika data benar, maka akan muncul "Login Berhasil"
+8. jika data salah, maka akan muncul "Username atau Password Salah"
